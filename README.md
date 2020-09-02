@@ -1,2 +1,4 @@
 # jsbasics
-gotta start back somewhere
+js basics
+git basics
+
