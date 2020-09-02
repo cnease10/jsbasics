@@ -26,3 +26,11 @@ for (let i = 1; i <= 100; i++) {
         console.log(i)
     }
 }
+
+const ninjaturtles = ["don", "mikey", "raph", "leo"]
+for (let i = 0; i < ninjaturtles.length; i++) {
+    const upper = ninjaturtles[i].toUpperCase();
+    console.log(upper)
+}
+
+
