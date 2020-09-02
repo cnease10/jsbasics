@@ -33,4 +33,47 @@ for (let i = 0; i < ninjaturtles.length; i++) {
     console.log(upper)
 }
 
+//array play
+
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+let newShoe = kristynsCloset.shift();
+//console.log(newShoe)
+thomsCloset[2].push(newShoe)
+//console.log(thomsCloset)
+let outfit = [kristynsCloset[0], kristynsCloset[2], kristynsCloset[3]]
+console.log("kristyn is wearing " + outfit)
+console.log(thomsCloset[0])
+console.log(thomsCloset[1])
+console.log(thomsCloset[2])
+
 
