@@ -76,4 +76,11 @@ console.log(thomsCloset[0])
 console.log(thomsCloset[1])
 console.log(thomsCloset[2])
 
-
+//euler
+let sum = 0;
+for (let i = 0; i <= 1000; i++) {
+    if (i % 3 == 0 || i % 5 == 0) {
+        sum += i
+    }
+    console.log(sum)
+}
